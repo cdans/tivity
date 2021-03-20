@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/action_recents"
-        android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
-        android:title="Recents"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
     <item
-        android:id="@+id/action_favorites"
-        android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
-        android:title="Favorites"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/navigation_timer"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_timer" />
+
     <item
-        android:id="@+id/action_nearby"
-        android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
-        android:title="Nearby"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/navigation_todos"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_todos" />
+
 </menu>

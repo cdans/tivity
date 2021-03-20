@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">tivity</string>
     <string name="underlined_register"><u>register</u></string>
+    <string name="title_home">Home</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_todos">"To-Do's"</string>
+    <string name="start">start</string>
+    <string name="cancel">cancel</string>
+
 </resources>
